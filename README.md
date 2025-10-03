@@ -4,6 +4,8 @@
 
 ---
 
+⚠️ The website migrated to React in October 2025. The repo includes code for a previous version.
+
 # Summary
 
 This repo stores implements my website available at https://kozodoi.me
@@ -15,7 +17,6 @@ The website includes:
 - 📚 [my ML publications](https://kozodoi.me/papers/) with paper abstracts and full-text PDFs
 - 🗣 [my tech talks](https://kozodoi.me/talks/) with links to presentation slides and talk videos
 - 🧩 [my certifications](https://kozodoi.me/certifications/) with links to certificates and completed courses
-- 🎓 [my teaching experience](https%//kozodoi&me/teaching/) at the Humboldt University of Berlin
 
 ---
 
@@ -41,7 +42,6 @@ I am happy to connect on different social and professional platforms. Click the 
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-306EA8?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kozodoi/)](https://www.linkedin.com/in/kozodoi/) 
 [![Twitter](https://img.shields.io/badge/-Twitter-4B9AE5?style=flat&logo=Twitter&logoColor=white&link=https://www.twitter.com/n_kozodoi)](https://www.twitter.com/n_kozodoi)
-[![Kaggle](https://img.shields.io/badge/-Kaggle-5DB0DB?style=flat&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/kozodoi)](https://www.kaggle.com/kozodoi)
 [![GitHub](https://img.shields.io/badge/-GitHub-2F2F2F?style=flat&logo=github&logoColor=white&link=https://www.github.com/kozodoi)](https://www.github.com/kozodoi)
 [![Google Scholar](https://img.shields.io/badge/-Google_Scholar-676767?style=flat&logo=google-scholar&logoColor=white&link=https://scholar.google.com/citations?user=58tMuD0AAAAJ&amp;hl=en)](https://scholar.google.com/citations?user=58tMuD0AAAAJ&amp;hl=en)
 [![Tea](https://img.shields.io/badge/-Buy_me_a_tea-yellow?style=flat&logo=buymeacoffee&logoColor=white&link=https://www.buymeacoffee.com/kozodoi)](https://www.buymeacoffee.com/kozodoi)
