@@ -1,12 +1,19 @@
-# Website Review — kozodoi.me
+# Website Review — kozodoi.me repo (live flagship: kozodoi.com)
 
-*Review of the Jekyll/fastpages site in this repo, July 2026. Goal: make this a flagship personal site for an AI scientist/engineer working on GenAI and agentic solutions.*
+*Review of the Jekyll/fastpages site in this repo, July 2026. Goal: make the personal site a flagship destination for an AI scientist/engineer working on GenAI and agentic solutions. Note: the live site is at **kozodoi.com** (React, per the README migrated in October 2025); this repo is the previous Jekyll version, whose `CNAME` still deploys to **kozodoi.me**.*
 
 ---
 
-## 0. One thing to resolve first
+## 0. The two-domain problem — resolve this first
 
-`README.md` says: *"The website migrated to React in October 2025. The repo includes code for a previous version."* If the live kozodoi.me is now served from a different (React) codebase, this repo is a museum and the flagship work should happen in the live codebase — most suggestions below still apply (they are mostly about content, positioning, and information architecture), but the technical fixes should target the real repo. If the React migration never shipped and this repo still powers the site, delete that README note. Either way, having a public README that says "this is an old version" undercuts the impression the site makes.
+The live flagship is kozodoi.com, but this repo (`CNAME: kozodoi.me`, 82 hardcoded `kozodoi.me` URLs, zero `kozodoi.com` references) still exists as the old site. Search engines currently index **both** domains with competing content: Google shows the new site's titles ("Nikita Kozodoi | AI Scientist", `/awards`, `kozodoi.com/portfolio`) alongside the old site's titles ("Blog on AI, ML and other cool acronyms" at `kozodoi.me/certifications/`). For someone whose goal is "this is what people find when they look me up," that's the single most impactful thing to fix:
+
+1. **Pick kozodoi.com as the one canonical domain** and make every `kozodoi.me` URL 301-redirect to its kozodoi.com equivalent (page-for-page, not just to the homepage — years of blog backlinks, talk slides, and paper PDFs point at deep .me URLs like `/blog/...`, `/talks/*.pdf`, `/cv.pdf`).
+2. **Make sure the old Jekyll site stops being served as live content on .me.** As long as both render, you're splitting link equity and showing many visitors the outdated 2021-era brand.
+3. **Update off-site profiles** (LinkedIn, GitHub, Kaggle, Scholar, X, YouTube) to link kozodoi.com consistently.
+4. **Then archive this repo** (or repurpose it purely as redirect infrastructure) and delete the "this repo is an old version" framing from the public README.
+
+Everything below reviews the content and code in this repo. The **content, positioning, and structure** findings (§1–§3, §7) apply to the live kozodoi.com site just as much — carry them over there. The code-level fixes only matter if any of this repo keeps serving traffic.
 
 ---
 
